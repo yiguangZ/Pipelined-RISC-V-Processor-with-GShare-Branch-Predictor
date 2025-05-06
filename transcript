@@ -1,0 +1,212 @@
+# Reading pref.tcl
+# //  ModelSim SE-64 10.7d Feb 15 2019 Linux 4.18.0-553.44.1.el8_10.x86_64
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -gui -voptargs="+acc=lprn" ucsbece154b_top_tb 
+# Start time: 15:49:55 on Apr 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.ucsbece154b_top_tb(fast)
+# Loading work.ucsbece154b_top(fast)
+# Loading work.ucsbece154b_riscv_pipe(fast)
+# Loading work.ucsbece154b_controller(fast)
+# Loading work.ucsbece154b_datapath(fast)
+# Loading work.ucsbece154b_branch(fast)
+# Loading work.ucsbece154b_rf(fast)
+# Loading work.ucsbece154b_alu(fast)
+# Loading work.ucsbece154_imem(fast)
+# Loading work.ucsbece154_dmem(fast)
+add wave -position end  sim:/ucsbece154b_top_tb/branch_total
+add wave -position end  sim:/ucsbece154b_top_tb/branch_miss
+add wave -position end  sim:/ucsbece154b_top_tb/jump_miss
+add wave -position end  sim:/ucsbece154b_top_tb/jump_total
+run
+# Begin simulation.
+# ** Warning: Unsupported ALUop given: x
+#    Time: 0 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUOp given: x
+#    Time: 4 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.alu File: ucsbece154b_alu.v Line: 26
+# ** Warning: Unsupported ALUOp given: x
+#    Time: 4 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.alu File: ucsbece154b_alu.v Line: 26
+# ** Warning: Unsupported ALUop given: x
+#    Time: 34 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 40 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 52 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 62 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 72 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 82 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 86 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 88 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 90 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 93 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+run
+# ** Warning: Unsupported ALUop given: x
+#    Time: 120 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 130 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 140 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 150 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 154 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 156 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 161 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+# ** Warning: Unsupported ALUop given: x
+#    Time: 170 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 184 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 194 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+run
+# ** Warning: Unsupported ALUop given: x
+#    Time: 204 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 214 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 216 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 221 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+# ** Warning: Unsupported ALUop given: x
+#    Time: 234 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 248 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 258 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 268 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 278 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 282 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 284 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 289 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+# ** Warning: Unsupported ALUop given: x
+#    Time: 298 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+run
+# ** Warning: Unsupported ALUop given: x
+#    Time: 312 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 322 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 332 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 342 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 344 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 349 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+# ** Warning: Unsupported ALUop given: x
+#    Time: 362 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 376 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 386 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 396 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+run
+# ** Warning: Unsupported ALUop given: x
+#    Time: 406 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 410 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 412 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 417 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+# ** Warning: Unsupported ALUop given: x
+#    Time: 426 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 446 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 456 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 466 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 468 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 473 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+# ** Warning: Unsupported ALUop given: x
+#    Time: 486 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 500 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+run
+# ** Warning: Unsupported ALUop given: x
+#    Time: 510 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 520 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 530 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 534 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 536 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 541 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+# ** Warning: Unsupported ALUop given: x
+#    Time: 550 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 570 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 580 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 590 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 592 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 597 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+run
+# ** Warning: Unsupported ALUop given: x
+#    Time: 610 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 624 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 634 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 644 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 654 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 658 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 660 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Unsupported ALUop given: x
+#    Time: 664 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# ** Warning: Attempted to write to $zero register
+#    Time: 665 ns  Scope: ucsbece154b_top_tb.top.riscv.dp.rf File: ucsbece154b_rf.v Line: 27
+# ** Warning: Unsupported ALUop given: x
+#    Time: 668 ns  Scope: ucsbece154b_top_tb.top.riscv.c File: ucsbece154b_controller.v Line: 109
+# 
+# === Simulation complete ===
+# Total cycles............: 334
+# Branch total............: 81
+# Branch mispredictions...: 45
+# Branch mispredict rate..: 55.555556%
+# Jump total..............: 10
+# Jump mispredictions.....: 1
+# Jump mispredict rate....: 10.000000%
+# ** Note: $stop    : ucsbece154b_top_tb.v(122)
+#    Time: 670 ns  Iteration: 1  Instance: /ucsbece154b_top_tb
+# Break in Module ucsbece154b_top_tb at ucsbece154b_top_tb.v line 122
